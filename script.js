@@ -90,7 +90,7 @@ const galaxyParameters = {
 };
 
 const defaultHeartImages = Array.from(
-  { length: 4 },
+  { length: 6 },
   (_, i) => `images/img${i + 1}.jpg`
 );
 
@@ -696,7 +696,7 @@ scene.add(planet);
 //Ganti Deskripsi Planet
 const ringTexts = [
   "Galaxy of Love from Trune", //untuk deskripsi planet layer 1
-  "Linh Đan oii I miss you", //untuk deskripsi planet layer 2
+  "Lú Sơn oii I miss you", //untuk deskripsi planet layer 2
   "♡Happy 1/6 Baby♡", //untuk deskripsi planet layer 3
   "1/6/2026", //untuk deskripsi planet layer 4
   ...(window.dataCCD && window.dataCCD.data.ringTexts
@@ -1215,7 +1215,7 @@ function createHintText() {
   canvas.width = canvas.height = canvasSize;
   const context = canvas.getContext("2d");
   const fontSize = 50;
-  const text = "Linh Đan ♡";
+  const text = "Lú Sơn ♡";
   context.font = `bold ${fontSize}px Arial, sans-serif`;
   context.textAlign = "center";
   context.textBaseline = "middle";
